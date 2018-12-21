@@ -2,6 +2,7 @@
   "compilerOptions": {
     "noImplicitAny": true,
     "target": "es2015",
+    "noEmit": true,
     "module": "commonjs"
   }
 }

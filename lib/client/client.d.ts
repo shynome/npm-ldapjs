@@ -1,6 +1,6 @@
 
 import {EventEmitter} from 'events';
-import {TLSSocketOptions} from 'tls';
+import {TlsOptions as TLSSocketOptions} from 'tls';
 import {Control} from '../controls/index';
 import {Filter} from '../filters/index';
 import {LDAPError} from '../errors/index';

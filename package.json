@@ -11,6 +11,7 @@
   "license": "ISC",
   "types": "./lib/index.d.ts",
   "devDependencies": {
+    "@types/node": "^10.12.12",
     "tslint": "^5.2.0",
     "tslint-config-typings": "^0.3.1",
     "typescript": "^2.0.9",
