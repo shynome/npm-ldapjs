@@ -1,6 +1,11 @@
 
+interface ChangeOptions {
+    operation: 'replace'|'add'|'delete',
+    modification: { [k:string]: any|any[] },
+}
+
 declare class Change {
-    constructor(options: Object);
+    constructor(options: ChangeOptions);
 }
 
 export = Change;
