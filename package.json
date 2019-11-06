@@ -1,6 +1,9 @@
 {
-  "name": "@types/ldapjs",
+  "name": "@shynome/types__ldapjs",
   "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Typings for ldapjs",
   "scripts": {
     "build": "typings bundle -o test/bundle.d.ts",
